@@ -5,5 +5,6 @@ const Myname=()=>{
 Myname()
 
 //Create a function to sort an Array in an ascending order
-const Num = [40, 100, 58, 3, 25, 10];
-Num.sort(function(a, b){return a-b});
+let numArray = [3,34, 14, 16, 79, 2];
+let sortedArr = numArray.sort();
+console.log(sortedArr);
